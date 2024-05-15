@@ -9,3 +9,7 @@ for (let i = 0; i < 16; i++) {
     const br = document.createElement('br');
     container.appendChild(br);
 }
+
+grid.addEventListener('mouseover', function(){
+    grid.style.backgroundColor = '#4CAF50';
+});
