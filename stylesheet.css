@@ -10,3 +10,10 @@
     height: 16px;
     border: 1px solid black;
 }
+
+#resize-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
