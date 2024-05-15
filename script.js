@@ -5,13 +5,15 @@ for (let i = 0; i < 16; i++) {
         const grid = document.createElement('div');
         grid.className = 'grid';
         container.appendChild(grid);
-    }
+    
     const br = document.createElement('br');
     container.appendChild(br);
-}
+
 
 grid.addEventListener('mouseover', function(event){
     if 
     (event.target.classList.contains('grid'))
     grid.style.backgroundColor = '#4CAF50';
-});
+})
+    }
+}
