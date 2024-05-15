@@ -10,9 +10,7 @@ for (let i = 0; i < 16; i++) {
     container.appendChild(br);
 
 
-grid.addEventListener('mouseover', function(event){
-    if 
-    (event.target.classList.contains('grid'))
+grid.addEventListener('mouseover', function(){ 
     grid.style.backgroundColor = '#4CAF50';
 })
     }
